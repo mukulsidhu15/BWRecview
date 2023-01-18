@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/drawable/button_shape.xml" value="0.124" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/drawable/et_custom.xml" value="0.124" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.1" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/layout/fragment_login.xml" value="0.19574468085106383" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/layout/fragment_otp.xml" value="0.2" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/layout/fragment_price_list.xml" value="0.264" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/layout/list_row.xml" value="0.2" />
+        <entry key="..\:/Users/MUKUL SIDHU/BWRecv/app/src/main/res/layout/progress_dialog.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

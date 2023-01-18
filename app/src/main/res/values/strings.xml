@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BWRecv</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_b_w">Welcome to B.W Recycling</string>
+    <string name="please_enter_email0">Please enter your email to continue</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_email_id">Enter email id</string>
+    <string name="continueBtn">CONTINUE</string>
+    <string name="please_check_your_email_for_code">Please check your email for code</string>
+    <string name="click_here_if_you_did_not_received_an_email">click here if you did not received an email</string>
+    <string name="otp">OTP</string>
+    <string name="this_is_the_list_title">This is the list title</string>
+    <string name="printed_circuit_board">Printed Circuit board</string>
+    <string name="_2_3">2.3</string>
+    <string name="learn_more">Learn More</string>
+    <string name="add_to_your_favourite">Add to your favourite</string>
+    <string name="price_list_all">Price List- All</string>
+
+</resources>

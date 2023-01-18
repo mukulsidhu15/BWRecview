@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginFragment"
+    android:background="@color/sky_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/welcome_to_b_w"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/please_enter_email0"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="sans-serif-medium">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:padding="5dp"
+            app:cardCornerRadius="18dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_address"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-medium"
+                    >
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/emailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress"
+                    android:paddingVertical="13dp"
+                    android:paddingHorizontal="13dp"
+                    android:background="@drawable/et_custom"
+                    android:hint="@string/enter_email_id"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:autofillHints="" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/continueBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/continueBtn"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    >
+
+                </androidx.appcompat.widget.AppCompatButton>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
